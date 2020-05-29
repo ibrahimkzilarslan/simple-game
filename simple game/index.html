@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Latest compiled and minified CSS -->
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="game.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<title>STONE PAPER SCİSSORS</title>
+	
+<link rel="shortcut icon" href="image/ikon.png"/>
+
+    <meta charset="UTF-8">
+
+</head>
+
+<body>
+
+    <div id="center">
+    <div class="row">
+        <div class="alert alert-info">
+            <strong>Hello! Click any of the objects below to get started</strong> 
+        </div>
+        <div class="row">
+            <div id="liste">
+              <div class="col-md-4">
+                <div class="panel panel-default">
+                <div class="panel-body">
+                        <img src="image/paper.png" onclick="choose(0)"  width="300" height="300" data-id="0">
+                </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                <div class="panel-body"> 
+                        <img src="image/scissors.png"  onclick="choose(1)"  width="300" height="300" data-id="1">
+                </div>
+                </div>
+             </div>
+
+
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                <div class="panel-body"> 
+                         <img src="image/stone.png"  onclick="choose(2)"  width="300" height="300" data-id="2">
+                 </div>
+                 </div>
+             </div>
+             </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
